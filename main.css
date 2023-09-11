@@ -56,6 +56,11 @@ html {
   /* rest of variables */
   --backgroundColor: var(--grey-50);
   --textColor: var(var(--grey-900));
+  --borderRadius: 2.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1120px;
+  --fixed-width: 600px;
 }
 
 body {
