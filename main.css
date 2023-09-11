@@ -26,7 +26,18 @@ html {
   --primary-700: #3c3799;
   --primary-800: #282566;
   --primary-900: #141233;
-  /* grey */
+
+  --grey-60: #f9fafb;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-300: #d1d5db;
+  --grey-400: #9ca3af;
+  --grey-500: #71717a;
+  --grey-600: #52525b;
+  --grey-700: #3f3f46;
+  --grey-800: #27272a;
+  --grey-900: #18181b;
+
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
