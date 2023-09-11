@@ -6,6 +6,11 @@
     <title>Default Global Styles Starter</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="main.css" />
+    <style>
+      .img {
+        width: 400px;
+      }
+    </style>
   </head>
   <body>
     <h1>Hello World</h1>
@@ -44,5 +49,33 @@
     <br />
     <div class="alert alert-danger">hello from danger</div>
     <div class="alert alert-success">hello from success</div>
+    <form class="form">
+      <h4>contact form</h4>
+      <div class="form-row">
+        <label for="name" class="form-label">Name</label>
+        <input
+          type="text"
+          placeholder="hellow there"
+          name="name"
+          id="name"
+          class="form-input"
+        />
+      </div>
+      <div class="form-row">
+        <label for="number" class="form-label">Number</label>
+        <input type="number" name="number" id="number" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="email" id="email" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label for="textarea" class="form-label">Textarea</label>
+        <textarea class="form-textarea">
+          Default Value
+        </textarea>
+        <button type="submit" class="btn btn-block">submit</button>
+      </div>
+    </form>
   </body>
 </html>
