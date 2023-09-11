@@ -17,6 +17,7 @@ html {
 
 :root {
   /* Colors */
+  /* primary */
   --primary-100: #e0deff;
   --primary-200: #c1beff;
   --primary-300: #a29dff;
@@ -27,17 +28,19 @@ html {
   --primary-800: #282566;
   --primary-900: #141233;
 
-  --grey-60: #f9fafb;
-  --grey-100: #f3f4f6;
-  --grey-200: #e5e7eb;
-  --grey-300: #d1d5db;
-  --grey-400: #9ca3af;
-  --grey-500: #71717a;
-  --grey-600: #52525b;
-  --grey-700: #3f3f46;
-  --grey-800: #27272a;
-  --grey-900: #18181b;
+  /* grey */
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
 
+  /* rest of colors */
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
@@ -49,14 +52,16 @@ html {
   --headingFont: 'Spectral', serif;
   --bodyFont: 'Karla', sans-serif;
   --smallText: 0.7em;
+
+  /* rest of variables */
 }
 
 body {
-  background: white;
+  background: var(--grey-50);
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
-  color: #000000;
+  color: var(--grey-900);
 }
 
 p {
