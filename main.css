@@ -54,14 +54,16 @@ html {
   --smallText: 0.7em;
 
   /* rest of variables */
+  --backgroundColor: var(--grey-50);
+  --textColor: var(var(--grey-900));
 }
 
 body {
-  background: var(--grey-50);
+  background: var(--backgroundColor);
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
-  color: var(--grey-900);
+  color: var(--textColor);
 }
 
 p {
