@@ -72,3 +72,12 @@ small,
 .text-small {
   font-size: var(--smallText);
 }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
