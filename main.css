@@ -16,6 +16,17 @@ html {
 } /*16px*/
 
 :root {
+  /* Colors */
+  /* primary */
+  /* grey */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+  /* Fonts */
   --headingFont: 'Spectral', serif;
   --bodyFont: 'Karla', sans-serif;
   --smallText: 0.7em;
